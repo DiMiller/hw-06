@@ -670,11 +670,12 @@ bottom: 0;
 .sub-input{
   min-width: 358px;
   height: 50px;
+  color: var(--second-text-color);
   background-color: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
-margin-right: 12px;
+  margin-right: 12px;
 }
 
 .sub-btn{
@@ -686,7 +687,7 @@ margin-right: 12px;
   border-radius: 4px;
   padding: 10px 55px;
   border: 1px transparent;
-  min-width: 200px;
+  width: 200px;
   height: 50px;
   margin-left: 0 auto;
   margin-right: 0 auto;
@@ -752,12 +753,12 @@ justify-content: center;
  right: 8px;
  padding: 0;
 
-
 width: 30px;
 height: 30px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
+cursor: pointer;
 }
 .close-btn-icon{
   fill:#000000;
@@ -768,6 +769,7 @@ border-radius: 50%;
 }
 
 .modal-title{
+  margin-top: 0;
 margin-bottom: 12px;
 text-align: center;
 font-weight: 700;
@@ -785,8 +787,7 @@ color: var(--main-title-color);
 
 }
 .input-shell{
-position: relative;
-
+   position: relative;
 }
 .input-shell:hover .modal-input, .input-shell:focus .modal-input{
   border-color: var(--accent-color);
@@ -836,7 +837,6 @@ display: block;
 .modal-icon{
   position: absolute;
   left: 12px;
-  right: 12px;
   top: 50%;
   transform: translateY(-50%);
   fill: #212121;
@@ -866,7 +866,7 @@ margin-bottom: 30px;
   margin-right: 8.5px;
   width: 16px;
   height: 15px;
-  border: 3px solid #212121;
+  border: 2px solid #212121;
   border-radius: 2px;
 }
 
